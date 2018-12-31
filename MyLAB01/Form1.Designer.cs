@@ -159,7 +159,7 @@
             // 
             this.lblOut1.AutoSize = true;
             this.lblOut1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOut1.Location = new System.Drawing.Point(308, 174);
+            this.lblOut1.Location = new System.Drawing.Point(55, 147);
             this.lblOut1.Name = "lblOut1";
             this.lblOut1.Size = new System.Drawing.Size(88, 25);
             this.lblOut1.TabIndex = 4;
@@ -169,7 +169,7 @@
             // 
             this.lblOut2.AutoSize = true;
             this.lblOut2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOut2.Location = new System.Drawing.Point(308, 243);
+            this.lblOut2.Location = new System.Drawing.Point(291, 147);
             this.lblOut2.Name = "lblOut2";
             this.lblOut2.Size = new System.Drawing.Size(88, 25);
             this.lblOut2.TabIndex = 4;
@@ -179,7 +179,7 @@
             // 
             this.lblOut3.AutoSize = true;
             this.lblOut3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOut3.Location = new System.Drawing.Point(308, 314);
+            this.lblOut3.Location = new System.Drawing.Point(512, 147);
             this.lblOut3.Name = "lblOut3";
             this.lblOut3.Size = new System.Drawing.Size(88, 25);
             this.lblOut3.TabIndex = 4;
@@ -189,7 +189,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(657, 378);
+            this.ClientSize = new System.Drawing.Size(657, 448);
             this.Controls.Add(this.lblOut3);
             this.Controls.Add(this.lblOut2);
             this.Controls.Add(this.lblOut1);
