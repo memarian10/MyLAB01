@@ -142,22 +142,30 @@ namespace MyLAB01
             //}
 
             //Average of 3 students for 4 lesson
-            int[,] arr2d = new int[3, 4] {{ 10, 17, 16, 14 }, { 18, 9, 19, 17}, { 15, 11, 12, 14} };
-            int[] sum = new int[4];
 
-            for (int i = 0; i < arr2d.GetLength(0); i++)
-            {
-                lblOut1.Text = i.ToString();
-                lblOut3.Text += arr2d[i, 0].ToString()+ "  ";
+            //int[,] arr2d = new int[3, 4] {{ 10, 17, 16, 14 }, { 18, 9, 19, 17}, { 15, 11, 12, 14} };
+            //int[] sum = new int[4];
+
+            //for (int i = 0; i < arr2d.GetLength(0); i++)
+            //{
                 
-                for (int j = 0; j < arr2d.GetLength(1); j++)
-                {
-                    lblOut2.Text += arr2d[i, j].ToString()+ "  ";
-                    sum[i] += arr2d[i, j];
-                }
-                lblOut1.Text = sum[i].ToString();
-                lblOut2.Text += "\n";
-            }
+            //    for (int j = 0; j < arr2d.GetLength(1); j++)
+            //    {
+                    
+            //        lblOut2.Text += arr2d[i, j].ToString()+ "  ";
+            //        sum[i] += arr2d[i, j];
+
+            //    } 
+            //    lblOut1.Text += "Student "+ (i+1) + " average is "+sum[i];
+            //    lblOut1.Text += "\n";
+            //    lblOut2.Text += "\n";
+            //}
+            //foreach (var item in sum)
+            //{
+            //    lblOut3.Text += item.ToString();
+            //}          
+            
+            //
             
 
 
