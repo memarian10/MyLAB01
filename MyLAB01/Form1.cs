@@ -148,10 +148,10 @@ namespace MyLAB01
 
             //for (int i = 0; i < arr2d.GetLength(0); i++)
             //{
-                
+
             //    for (int j = 0; j < arr2d.GetLength(1); j++)
             //    {
-                    
+
             //        lblOut2.Text += arr2d[i, j].ToString()+ "  ";
             //        sum[i] += arr2d[i, j];
 
@@ -164,9 +164,24 @@ namespace MyLAB01
             //{
             //    lblOut3.Text += item.ToString();
             //}          
-            
-            //
-            
+
+            //Jagged 2D array
+            //int[][] jaArr = new int[3][];
+            //jaArr[0] = new int[2] { 11, 22 };
+            //jaArr[1] = new int[4] { 33, 44, 55, 66 };
+            //jaArr[2] = new int[3] { 77, 88, 99 };
+
+            //for (int i = 0; i < jaArr.Length; i++)
+            //{
+            //    for (int j = 0; j < jaArr[i].Length; j++)
+            //    {
+            //        lblOut1.Text += jaArr[i][j].ToString()+ "-";
+            //    }
+            //}
+
+            //Return Value
+            //lblOut1.Text = myMethods.SumFunc1(b:num1, a:num2).ToString();
+
 
 
         }
